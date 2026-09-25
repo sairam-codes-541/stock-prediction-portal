@@ -5,9 +5,9 @@ const Header = () => {
     <nav  className='navbar container pt-3 pb-3 align-items-start'>
         <a className='navbar-brand text-light' href=''>Stock Prediction Portal</a>
         <div>
-            <Button class='btn-outline-info' text='Login'/>
+            <Button class='btn-outline-info' text='Login' url='/login' />
             &nbsp;
-            <Button class='btn-info' text='Register' />
+            <Button class='btn-info' text='Register' url='/register' />
         </div>
     </nav>
   )
